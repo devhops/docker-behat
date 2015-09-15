@@ -1,5 +1,4 @@
 language: php
-  - 5.3
   - 5.4
 notifications:
     - sarah@devhops.co.uk
