@@ -12,6 +12,6 @@ RUN mkdir /data/behat
 
 COPY composer.json /data/behat/composer.json
 
-WORKDIR /data/behat
+WORKDIR /home/behat
 RUN curl -sS https://getcomposer.org/installer | php
 RUN php composer.phar install
