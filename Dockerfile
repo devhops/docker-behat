@@ -10,8 +10,7 @@ RUN apt-get -y install curl php5-cli git apt-utils
 
 RUN mkdir /home/behat
 
-COPY composer.json /data/behat/composer.json
-
 WORKDIR /home/behat
+COPY composer.json /home/behat/composer.json
 RUN curl -sS https://getcomposer.org/installer | php
 RUN php composer.phar install
