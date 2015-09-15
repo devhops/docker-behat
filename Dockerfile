@@ -8,7 +8,7 @@ LABEL "Behat Docker image on Debian Wheezy"
 RUN apt-get -y update
 RUN apt-get -y install curl php5-cli git apt-utils
 
-RUN mkdir /data/behat
+RUN mkdir /home/behat
 
 COPY composer.json /data/behat/composer.json
 
