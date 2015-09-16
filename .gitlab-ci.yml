@@ -1,0 +1,6 @@
+image: node:latest
+
+dockerfile-lint:
+  script:
+    - npm install -g dockerfile_lint
+    - dockerfile_lint -f Dockerfile
