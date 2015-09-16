@@ -1,4 +1,10 @@
-language: php
-  - 5.4
+language: node_js
+node_js:
+  - "0.12"
+  
 notifications:
     - sarah@devhops.co.uk
+
+ script:
+    - npm install -g dockerfile_lint
+    - dockerfile_lint -f Dockerfile
