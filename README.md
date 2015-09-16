@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/devhops/docker-behat.svg)](https://travis-ci.org/devhops/docker-behat)
+
 ## docker-behat
 Container of bees and hats
 
