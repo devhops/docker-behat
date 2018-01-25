@@ -7,7 +7,7 @@ Container of bees and hats
 Docker container that uses Debian Wheezy and then installs behat, php5, composer, git curl, and apt-utils.
 
 ## Why?
-Because. 
+A QA Engineer wanted a method to run behat in a clean reproducible enviroment, so I created this. Therefore, you will need behat tests for your intended purpose. 
 
 ## How? 
 
